@@ -8,7 +8,7 @@ import transit from 'transit-immutable-js';
 const preloadedState = window.__PRELOADED_STATE__ && transit.fromJSON(window.__PRELOADED_STATE__);
 
 const store = configure(preloadedState);
-
+// travis
 const Root = () => {
   return (
     <Provider store={store}>
